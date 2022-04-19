@@ -1,4 +1,4 @@
-# goit-markup-hw-01
+# goit-markup-hw-02
 GoIT HW01
 <br>
-https://aegisvp.github.io/goit-markup-hw-01/
+https://aegisvp.github.io/goit-markup-hw-02/
