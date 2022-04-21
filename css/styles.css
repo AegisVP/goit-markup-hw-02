@@ -1,0 +1,431 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    --default-text: #000;
+    --contrast-text: #fff;
+    --footer-text: rgba(255, 255, 255, 0.6);
+    --active-link-color: #2196F3;
+    --dark-grey-text: #212121;
+    --light-grey-text: #757575;
+    --dark-grey-background: #2F303A;
+    --light-grey-background: #F5F4FA;
+
+
+    /* for logo use font-family: 'Raleway', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--default-text);
+    display: flexbox;
+    flex-direction: column;
+    max-width: 1600px;
+}
+
+/* Header styles */
+
+.header {
+    height: 80px;
+    vertical-align: middle;
+}
+
+/* Logo text styling */
+.logo-link {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    display: inline-block;
+    margin-left:215px;
+    margin-top:25px;
+}
+
+.logo-1 {
+    color: var(--active-link-color);
+}
+
+.logo-2 {
+    color: var(--default-text);
+}
+
+/* ??????????????? */
+.header-navigation-bar {
+    display: inline-block;
+    margin-left: 0;
+}
+
+.header-link-list {
+  list-style-type: none;
+}
+
+.header-link a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.header-link a,
+.header-link a.header-link-selected:hover,
+.header-link a.header-link-selected:focus {
+    color: var(--dark-grey-text);
+}
+
+.header-link a:hover,
+.header-link a:focus,
+.header-link a.header-link-selected {
+    color: var(--active-link-color);
+}
+
+.header-link {
+    float: left;
+    margin-left: 50px;
+}
+
+.header-link:first-of-type {
+    margin-left: 95px;
+}
+
+/* ??????????????? */
+.header-link-address {
+    float: right;
+    margin-right: 215px;
+    margin-top: 30px;
+
+    left: 1080px;           /* ???????????? */
+    top: 0px;              /* ???????????? */
+}
+
+.header-link-address  a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--light-grey-text);
+    padding-left: 50px;
+}
+
+.header-link-address  a:hover,
+.header-link-address  a:focus {
+    color: var(--active-link-color);;
+}
+
+
+/* Index - Main section styles */
+
+/* Top banner styles */
+.top-banner {
+    display: block;
+    height: 600px;
+    background-color: var(--dark-grey-background);
+    text-align: center;
+
+    border-style: solid;
+    border-color: var(--dark-grey-background);
+}
+
+.top-banner-text {
+    margin-top: 200px;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--contrast-text);
+    /* border-style: none; */
+}
+
+.top-banner-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--contrast-text);
+
+    width: 200px;
+    height: 50px;
+
+    background-color: var(--active-link-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border-style: none;
+
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+/* Advantages list styles */
+.advantages {
+    margin-top: 95px;
+    text-align: center;
+}
+
+.advantages-list {
+    display:inline-block;
+    list-style-type: none;
+}
+
+.advantages-list-item {
+    margin-left: 30px;
+    float: left;
+    text-align: left;
+}
+
+.advantages-list-item:first-of-type {
+    margin-left: 0px;
+}
+
+.advantages-item-header {
+    width: 270px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--dark-grey-text);
+}
+
+.advantages-item-text {
+    width: 270px;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--light-grey-text);
+    margin-top:10px;
+}
+
+/* What we do styles */
+.what-we-do-list {
+    list-style-type: none;
+    text-align: center;
+    margin-top: 95px;
+}
+
+.what-we-do-header {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--dark-grey-text);
+}
+
+.what-we-do-images {
+    display:inline-block;
+    list-style-type: none;
+}
+
+.what-we-do-image {
+    float: left;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.what-we-do-image:first-of-type {
+    margin-left: 0px;
+}
+
+/* Our team styles */
+.our-team {
+    margin: 95px 0 0 0;
+    padding: 95px 0;
+    max-width: 1600px;
+    background-color: var(--light-grey-background);
+    text-align: center;
+}
+
+.our-team-header {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--dark-grey-text);
+}
+
+.team-list {
+    display:inline-block;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.team-member {
+    text-align: center;
+    width: min-content;
+    float: left;
+    margin: 50px 0 0 30px;
+    padding: 0;
+    background: var(--contrast-text);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.team-member:first-of-type {
+    margin-left: 0px;
+}
+
+.team-member-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: var(--dark-grey-text);
+    padding: 0;
+    margin: 30px 0 0 0;
+}
+
+.team-member-position {
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: var(--light-grey-text);
+    padding: 0;
+    margin: 10px 0 30px;
+}
+
+
+/* Portfolio - Main section styles */
+
+.main-section {
+    width: 1600px;
+
+    /* border-style: solid;
+    border-color: #000; */
+}
+
+.portfolio-filter {
+    margin-top: 95px;
+    text-align: center;
+}
+
+.portfolio-filter-list {
+    list-style: none;
+}
+
+.portfolio-filter-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+
+    color: var(--dark-grey-text);    
+    background: var(--light-grey-background);
+    border-radius: 4px;
+    border: none;
+
+    padding: 6px 22px;
+    margin-left: 10px;
+}
+
+.portfolio-filter-button:hover,
+.portfolio-filter-button:active {
+    color: var(--contrast-text);
+    background: var(--active-link-color);
+}
+
+.portfolio-filter-button:first-of-type {
+    margin-left: 0px;
+}
+
+/* Portfolio projects list styles */
+
+/* .portfolio-list-section {
+    width:1170;
+} */
+
+.portfolio-list {
+    margin-top: 180px;
+    list-style: none;
+
+    border-style: solid;
+    border-color: #000;
+}
+
+.portfolio-item {
+    float: left;
+    width: 370px;
+    height: 404px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #eee;
+}
+
+.portfolio-item h1 {
+    text-align: left;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: var(--dark-grey-text);
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.portfolio-item p {
+    text-align: left;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: var(--light-grey-text);
+    margin-top: 5px;
+    margin-left: 25px;
+}
+
+
+
+/* Footer styles */
+
+.footer {
+    height: 252px;
+    vertical-align: middle;
+    padding-left: 215px;
+    background-color: var(--dark-grey-background);;
+}
+
+.footer .logo-link {
+    margin-top: 60px;
+    margin-left: 0px;
+}
+
+.footer .logo-2 {
+    color: var(--contrast-text);
+}
+
+.footer-text {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--contrast-text);
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.footer-link {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--footer-text);
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.footer-link:hover,
+.footer-link:active {
+    color: var(--active-link-color);
+}
