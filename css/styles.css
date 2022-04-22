@@ -47,10 +47,10 @@ body {
 
 /* Header styles */
 
-.header {
-  /* height: 80px;
-  vertical-align: middle; */
-}
+/* .header {
+  height: 80px;
+  vertical-align: middle;
+} */
 
 .logo-link {
   text-decoration: none;
@@ -60,23 +60,23 @@ body {
 }
 
 /* ??????????????? */
-.header-navigation-bar {
-  /* display: inline-block;
-  margin-left: 0; */
-}
+/* .header-navigation-bar {
+  display: inline-block;
+  margin-left: 0;
+} */
 
 .header-link-list {
   list-style-type: none;
 }
 
-.header-link {
-  /* float: left;
-  margin-left: 50px; */
-}
+/* .header-link {
+  float: left;
+  margin-left: 50px;
+} */
 
-.header-link:first-of-type {
-  /* margin-left: 95px; */
-}
+/* .header-link:first-of-type {
+  margin-left: 95px;
+} */
 
 .header-link > a {
   font-weight: 500;
@@ -99,14 +99,14 @@ body {
 }
 
 /* ??????????????? */
-.header-link-address {
-  /* float: right;
+/* .header-link-address {
+  float: right;
   margin-right: 215px;
   margin-top: 30px;
 
   left: 1080px; /* ???????????? 
-  top: 0px; /* ???????????? */
-}
+  top: 0px; /* ????????????
+} */
 
 .header-link-address > a {
   text-decoration: none;
@@ -132,10 +132,10 @@ body {
   background-color: var(--dark-grey-background);
 }
 
-.footer .logo.web {
-  /* margin-top: 60px;
-  margin-left: 0px; */
-}
+/* .footer .logo.web {
+  margin-top: 60px;
+  margin-left: 0px;
+} */
 
 .footer .logo.studio-c {
   color: var(--contrast-text);
@@ -212,25 +212,25 @@ body {
 }
 
 /* Advantages list styles */
-.advantages {
-  /* margin-top: 95px;
-  text-align: center; */
-}
+/* .advantages {
+  margin-top: 95px;
+  text-align: center;
+} */
 
-.advantages-list {
-  /* display: inline-block;
-  list-style-type: none; */
-}
+/* .advantages-list {
+  display: inline-block;
+  list-style-type: none;
+} */
 
-.advantages-list-item {
-  /* margin-left: 30px;
+/* .advantages-list-item {
+  margin-left: 30px;
   float: left;
-  text-align: left; */
-}
+  text-align: left;
+} */
 
-.advantages-list-item:first-of-type {
-  /* margin-left: 0px; */
-}
+/* .advantages-list-item:first-of-type {
+  margin-left: 0px;
+} */
 
 .advantages-item-header {
   width: 270px;
@@ -272,15 +272,15 @@ body {
   list-style-type: none;
 }
 
-.what-we-do-image {
-  /* float: left;
+/* .what-we-do-image {
+  float: left;
   margin-top: 50px;
-  margin-left: 30px; */
-}
+  margin-left: 30px;
+} */
 
-.what-we-do-image:first-of-type {
-  /* margin-left: 0px; */
-}
+/* .what-we-do-image:first-of-type {
+  margin-left: 0px;
+} */
 
 /* Our team styles */
 .our-team {
@@ -319,9 +319,9 @@ body {
   border-radius: 0px 0px 4px 4px; */
 }
 
-.team-member:first-of-type {
-  /* margin-left: 0px; */
-}
+/* .team-member:first-of-type {
+  margin-left: 0px;
+} */
 
 .team-member-name {
   font-weight: 500;
@@ -346,12 +346,12 @@ body {
                 Portfolio - Main section styles 
 *******************************************************************/
 
-.main-section {
-  /* width: 1600px; */
+/* .main-section {
+  width: 1600px; */
 
   /* border-style: solid;
-    border-color: #000; */
-}
+    border-color: #000;
+} */
 
 .portfolio-filter {
   margin-top: 95px;
@@ -383,9 +383,9 @@ body {
   background: var(--active-link-color);
 }
 
-.portfolio-filter-button:first-of-type {
-  /* margin-left: 0px; */
-}
+/* .portfolio-filter-button:first-of-type {
+  margin-left: 0px;
+} */
 
 /* Portfolio projects list styles */
 
@@ -401,16 +401,16 @@ body {
   border-color: #000; */
 }
 
-.portfolio-item {
-  /* float: left;
+/* .portfolio-item {
+  float: left;
   width: 370px;
   height: 404px;
   margin-bottom: 30px;
   margin-left: 30px;
   border-style: solid;
   border-width: 1px;
-  border-color: #eee; */
-}
+  border-color: #eee;
+} */
 
 .portfolio-item h1 {
   font-weight: 700;
