@@ -21,14 +21,25 @@ body {
 /* Logo styling */
 .logo {
   font: normal 700 26px/1.19 'Raleway', sans-serif;
-  letter-spacing: 0.03em
+  letter-spacing: 0.03em;
+  text-decoration: none;
 }
 
-.logo > .web { color: var(--active-link-color); }
-.logo > .studio { color: var(--default-text); }
-.logo > .studio-c { color: var(--contrast-text); }
+.logo > .web {
+  color: var(--active-link-color);
+}
+.logo > .studio {
+  color: var(--default-text);
+}
+.logo > .studio-c {
+  color: var(--contrast-text);
+}
 
 /* Header styles */
+
+.header-nav-links {
+  list-style: none;
+}
 
 .header-nav-link > a {
   font-weight: 500;
@@ -66,8 +77,12 @@ body {
   background-color: var(--dark-grey-background);
 }
 
-.footer-text { color: var(--contrast-text); }
-.footer-link { color: var(--footer-text); }
+.footer-text {
+  color: var(--contrast-text);
+}
+.footer-link {
+  color: var(--footer-text);
+}
 
 .footer-link:hover,
 .footer-link:active {
@@ -106,6 +121,10 @@ body {
   cursor: pointer;
 }
 
+.section-list {
+  list-style: none;
+}
+
 .advantages-item-header {
   color: var(--dark-grey-text);
 
@@ -114,7 +133,9 @@ body {
   line-height: 1.14;
 }
 
-.advantages-item-text { color: var(--light-grey-text); }
+.advantages-item-text {
+  color: var(--light-grey-text);
+}
 
 .section-header {
   color: var(--dark-grey-text);
@@ -126,7 +147,9 @@ body {
   text-align: center;
 }
 
-.our-team { background-color: var(--light-grey-background); }
+.our-team {
+  background-color: var(--light-grey-background);
+}
 
 .team-member {
   background: var(--contrast-text);
@@ -155,6 +178,10 @@ body {
                 Portfolio - Main section styles 
 *******************************************************************/
 
+.portfolio-filter-list {
+  list-style: none;
+}
+
 .portfolio-filter-button {
   background: var(--light-grey-background);
   color: var(--dark-grey-text);
@@ -168,6 +195,10 @@ body {
 .portfolio-filter-button:active {
   background: var(--active-link-color);
   color: var(--contrast-text);
+}
+
+.portfolio-list {
+  list-style: none;
 }
 
 .portfolio-item .project-title {
