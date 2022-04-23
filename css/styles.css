@@ -14,13 +14,17 @@
 
 body {
   color: var(--default-text);
-  font: normal 400 14px/1.71 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
   letter-spacing: 0.03em;
 }
 
 /* Logo styling */
 .logo {
-  font: normal 700 26px/1.19 'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
+  font-weight: 700;
   letter-spacing: 0.03em;
   text-decoration: none;
 }
@@ -43,7 +47,9 @@ body {
 
 .header-nav-link > a {
   font-weight: 500;
+  line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .header-nav-link > a/*,
@@ -64,6 +70,7 @@ body {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .header-addresses > a:hover,
@@ -79,9 +86,11 @@ body {
 
 .footer-text {
   color: var(--contrast-text);
+  font-style: normal; /* сброс user-agent стилей для тега address */
 }
 .footer-link {
   color: var(--footer-text);
+  text-decoration: none;
 }
 
 .footer-link:hover,
@@ -107,12 +116,14 @@ body {
   letter-spacing: 0.06em;
 
   text-align: center;
+  text-transform: uppercase;
 }
 
 .top-banner-button {
   background-color: var(--active-link-color);
   color: var(--contrast-text);
 
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -131,10 +142,13 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+  text-transform: uppercase;
 }
 
 .advantages-item-text {
   color: var(--light-grey-text);
+  
+  line-height: 1.71;
 }
 
 .section-header {
@@ -186,6 +200,7 @@ body {
   background: var(--light-grey-background);
   color: var(--dark-grey-text);
 
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
